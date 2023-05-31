@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, Helvetica;
+    background-color: linen;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: brown;
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover {
+    background: lightcoral;
+}
+h1 {
+    text-align: center;
+    color: brown;
+    padding: 20px;
+}
+p {
+    text-align: center;
+}
+main {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h4 {
+    font-size: 25px;
+    text-align: start;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button {
+    border-radius: 15px;
+    background-color: brown;
+    color: white;
+    padding: 7px;
+    border: none;
+}
+.enlace {
+    text-decoration: none;
+    color: white;
+}
+button:hover {
+    background-color: black;
+}
+.animado {
+    background-image: url(img/frutas.png);
+    padding: 60px;
+    background-size: 100%;
+    animation: movimiento 10s infinite linear alternate;
+}
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+.caja1 {
+    width: auto;
+    height: auto;
+    padding: 50px;
+
+}
+.caja2 {
+    width: auto;
+    height: auto;
+    padding: 50px;
+}
+.caja3 {
+    width: auto;
+    height: auto;
+    padding: 50px;
+}
+.cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa-store {
+    font-size: 40px;
+    text-align: center;
+}
+.fa-apple-alt {
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: brown;
+}
+.titulo {
+    color: brown;
+    text-align: center;
+}
+.cajas1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.caja4 {
+    width: 15px;
+    height: 10px;
+    padding: 10%;
+    background-image: url(img/especias.png);
+    margin: auto;
+    border-radius: 10px;
+    background-size: 150%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caja5 {
+    width: 15px;
+    height: 10px;
+    padding: 10%;
+    background-image: url(img/verduras.png);
+    margin: auto;
+    border-radius: 10px;
+    background-size: 206%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caja6 {
+    width: 15px;
+    height: 10px;
+    padding: 10%;
+    background-image: url(img/imagenfrutas.png);
+    margin: auto;
+    border-radius: 10px;
+    background-size: 190%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caja7 {
+    width: 67vw;
+    height: auto;
+    padding: 10%;
+    background-image: url(img/legumbres.png);
+    margin: auto;
+    border-radius: 10px;
+    background-size: 100%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: end;
+}
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: brown;
+    color: white;
+    height: 240px;
+    bottom: 0%;
+}
+.caja8 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+.caja9 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+    text-align: justify;
+}
+iframe {
+    width: auto;
+    height: auto;
+}
+.caja10 {
+    margin-left: 50px;
+}
